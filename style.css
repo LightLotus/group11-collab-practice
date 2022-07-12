@@ -1,0 +1,152 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+    background-color: hsl(0, 5%, 96%) !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin:0;
+    padding:0; 
+    
+}
+
+.stay-productive{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    /* background: hsl(0, 0%, 75%); */
+    /* position:relative; */
+    padding-bottom: 15rem;
+    /* width:80%; */
+    align-items: center;
+    justify-content:center;
+}
+
+.illustration{
+    grid-column: 1/2;
+    grid-row:2/3;
+    /* position:absolute; */
+    width:100%;
+
+}
+
+h2{
+    grid-column: 1/2;
+    grid-row:3/4;
+
+}
+
+p{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding-top: 1.3rem;
+}
+
+
+.cards{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-color: #fff;
+    width:22rem;
+    padding:1rem;
+    border-radius: .5rem;
+}
+
+ .linky{
+    
+    
+    color:hsl(170, 45%, 43%);
+    text-align: center;
+    margin-bottom: 10rem;
+    /* align-items: center;
+    justify-content:center; */
+ 
+}
+
+/* .arrow{
+    display: inline-block;
+
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+} */
+
+
+
+
+
+.img{
+    border-radius: 50%;
+}
+
+.name{
+    display:flex;
+    gap:1rem;
+}
+
+
+@media(min-width:768px){
+
+    .stay-productive{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        margin-left: 20rem;
+        margin-right: 10rem;
+        margin-top: 5rem;
+     
+        padding-bottom: 15rem;
+       /* position:relative; */
+        align-items: center;
+        justify-content:center;
+    }
+
+h2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+p{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-top: 1.3rem;
+}
+
+p a{
+    color:hsl(170, 45%, 43%);
+}
+
+.cards{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: #fff;
+    width:22rem;
+    padding:1rem;
+    border-radius: .5rem;
+}
+
+.img{
+    border-radius: 50%;
+}
+
+.name{
+    display:flex;
+    gap:1rem;
+}
+
+.illustration{
+    grid-column: 2/3;
+    grid-row:2/5;
+    /* position:absolute; */
+    width:60%;
+
+}
+
+
+   
+}
+
